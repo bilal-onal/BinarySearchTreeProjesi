@@ -1,0 +1,27 @@
+İlk olarak kök düğümü oluşturarak başlayalım:
+
+Kök: 7
+Daha sonra sırayla diğer elemanları BST'ye ekleyeceğiz:
+
+5 -> 7'nin solundadır.
+1 -> 5'in solundadır.
+8 -> 7'nin sağındadır.
+3 -> 5'in sağındadır.
+6 -> 3'ün sağındadır.
+0 -> 1'in solundadır.
+9 -> 8'in sağındadır.
+4 -> 3'ün sağındadır.
+2 -> 3'ün solundadır.
+Bu işlemleri sırasıyla gerçekleştirerek oluşturduğumuz BST şu şekildedir:
+
+       7
+     /   \
+    5     8
+   / \     \
+  1   6     9
+ / \       /
+0   3     4
+   / \
+  2   4
+
+Bu aşamaları takip ederek verilen dizinin BST ağacını oluşturabilirsiniz. Her elemanı eklerken BST'nin temel özelliği olan küçük elemanların sol tarafa, büyük elemanların sağ tarafa yerleştirilmesini göz önünde bulundurmalısınız.
